@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  vngpd:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-08T16:29:39.543681405+09:00"
+    description: A Helm chart for Kubernetes
+    digest: 049e3c296f3801000e79ad74943ef1569a5a2c0938998441b3d00e897fd0afd9
+    name: vngpd
+    type: application
+    urls:
+    - vngpd-0.1.1.tgz
+    version: 0.1.1
+generated: "2024-11-08T16:29:39.543011+09:00"
