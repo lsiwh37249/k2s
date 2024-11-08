@@ -14,3 +14,14 @@ $ minikube dashboard --url
 # 배포 적용
 $ kubectl apply -f httpd-deployment.yaml
 ```
+
+```bash
+$ helm install cnp ngpd
+$ helm list
+$ helm status cnp
+$ helm delete cnp
+$ helm upgrade cnp ngpd
+$ helm rollback cnp
+$ helm rollback cnp 2
+$ helm history cnp
+```
